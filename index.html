@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Examples</title>
+  <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css' />
+  <link rel="stylesheet" href="bootstrap/css/creative.css" type="text/css">
+  <style>
+ 
+
+  .top_page{
+    background-image: url(img/dolphin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 200px;
+
+  }
+  @font-face {
+    font-family: dirty_army;
+    src: url(css/dirty_army.ttf);
+}
+
+    #army{ 
+    margin-bottom: 0px;
+    font-family: 'dirty_army';
+   }
+
+   .nav{
+      font-size: 3em;
+   }
+   #top_army{ 
+    font-size: 1em;
+   }
+   .row{
+    font-family: 'dirty_army';
+    font-size: 2em;
+   }
+   
+
+
+  
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+   
+    @media only screen and (min-width : 480px) {
+
+    }
+
+ 
+    @media only screen and (min-width : 768px) {
+
+    }
+
+  
+    @media only screen and (min-width : 992px) {
+
+    }
+
+   
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+  </style>
+
+  <style>
+ 
+    
+  </style>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-inverse " id="army">
+    <div class="container">
+	    <div class="nav navbar-header">
+	    	<a class="navbar-brand" id="top_army" href="index.html">Dolphin Army</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>	    	
+	    </div>	    
+	    	<ul id="myCollapsingList"class="nav navbar-nav collapse navbar-collapse">
+			   <li><a href="index.html">Home</a></li>
+		     <li><a href="course.html">Courses</a></li>
+		     <li><a href="equipment.html">Equipment</a></li>
+		    </ul>
+    </div>
+	</nav>
+ 
+<div class='container top_page' id='container'>
+
+	<div class='row'>
+
+  <div class="face"></div>
+		<div class='col-md-offset-8 col-md-4'>		
+			
+			<div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title"><a data-toggle="collapse" href="#collapseOne" data-parent="#accordion">1. What is Dolphin Army</a></h3>
+			  </div>
+
+        <div id="collapseOne" class="panel-collapse collapse">
+			  <div class="panel-body">
+			    Doplhin Army is the number one place for all your Dolphin fighting style training 
+			  </div>
+			</div>
+
+      <div class="panel-heading">
+          <h3 class="panel-title"><a data-toggle="collapse" href="#collapseTwo" data-parent="#accordion">2. Why a Dolphin?</a></h3>
+        </div>
+
+      <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">
+          Dolphins in the past have been used by several military forces for underwater sentry duty, mine clearance, and object recovery.
+        </div>
+      </div>
+
+      <div class="panel-heading">
+          <h3 class="panel-title"><a data-toggle="collapse" href="#collapseThree" data-parent="#accordion">3. Fun Fact</a></h3>
+        </div>
+
+      <div id="collapseThree" class="panel-collapse collapse">
+        <div class="panel-body">
+          Like soldiers dolphin intercourse last for no more than 10 seconds 
+        </div>
+      </div>
+
+      </div>
+
+		</div>
+    </div>
+		
+	</div>
+</div>
+
+
+
+
+
+</body>
+<script src='http://code.jquery.com/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
+</html>
